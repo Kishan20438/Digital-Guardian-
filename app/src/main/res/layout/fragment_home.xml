@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".ui..Fragment">
+
+    <TextView
+        android:id="@+id/greeting_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:text="Hi Abhishek. !!"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        app:columnCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/greeting_text"
+        app:rowCount="3">
+
+        <!-- Dashboard -->
+        <include
+            android:id="@+id/card_dashboard"
+            layout="@layout/item_dashboard_card"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <!-- Location -->
+        <include
+            android:id="@+id/card_location"
+            layout="@layout/item_dashboard_card"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <!-- Message -->
+        <include
+            android:id="@+id/card_message"
+            layout="@layout/item_dashboard_card"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <!-- Contact -->
+        <include
+            android:id="@+id/card_contact"
+            layout="@layout/item_dashboard_card"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <!-- Call Log -->
+        <include
+            android:id="@+id/card_call_log"
+            layout="@layout/item_dashboard_card"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <!-- App Usage -->
+        <include
+            android:id="@+id/card_app_usage"
+            layout="@layout/item_dashboard_card"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <!-- Details -->
+        <include
+            android:id="@+id/card_details"
+            layout="@layout/item_dashboard_card"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <!-- Alerts -->
+        <include
+            android:id="@+id/card_alerts"
+            layout="@layout/item_dashboard_card"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <!-- Reports -->
+        <include
+            android:id="@+id/card_reports"
+            layout="@layout/item_dashboard_card"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

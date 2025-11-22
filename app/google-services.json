@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "347388792939",
+    "project_id": "child-tracking-87376",
+    "storage_bucket": "child-tracking-87376.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347388792939:android:079387e1ccac7490a9a12e",
+        "android_client_info": {
+          "package_name": "com.example.childtracking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPSZC4xyLIAl0xy3XVx3lmDud0RZrFOr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Child Tracking</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_"></string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    
+    <!-- Authentication Strings -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Mail-ID*</string>
+    <string name="password">Password*</string>
+    <string name="name">Full Name*</string>
+    <string name="mobile">Mobile*</string>
+    <string name="user_type">User Type*</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login_button">LOGIN</string>
+    <string name="register_button">REGISTER</string>
+    
+    <!-- User Types -->
+    <string-array name="user_types">
+        <item>parent</item>
+        <item>child</item>
+    </string-array>
+</resources>
